@@ -6,7 +6,7 @@ resource "aws_instance" "myec2" {
   instance_type = "t2.micro"
   subnet_id   = "subnet-01b6ac774a28996b1"
   key_name = "Nikhil"
-  security_groups = ["launch-wizard-1"]
+  security_groups = ["sg-03fe3a9e93481754c"]
   tags = {
     Name = "Ec2tf"
   }
